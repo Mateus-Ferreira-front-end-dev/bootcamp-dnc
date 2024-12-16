@@ -3,6 +3,15 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #303030;
+}
+
+:root{
+    --azul-dnc:#0C70F2;
+    --preto-dnc:#303030;
+    --cinza-hover:#C9C9C9;
+    --fonte-padrao:'Inter'
+
 }
 
 #principal{
@@ -53,4 +62,104 @@ body{
 #principal button:hover{
     background-color: #1e7cf7;
     box-shadow: 3px 3px 5px #2480f860;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+header {
+    color: white;
+    margin-bottom: 100px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: var(--fonte-padrao);
+    font-weight: 800;
+}
+
+header h2{
+    font-family: var(--fonte-padrao);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+header .invert{
+    background-color: black;
+    padding: 2px;
+}
+
+/* formulário */
+
+form{
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-weight: 600;
+    font-size: 30px;
+    width: 600px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input{
+    border-radius: 10px;
+    height: 35px;
+    border: 0px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #FFFFFFE5;
+}
+
+form label{
+    margin: 10px 0px 10px 0px;
+}
+
+form input::placeholder{
+    color: #39393980;
+}
+
+.checkbox-items label{
+    font-size: 25px;
+}
+
+.checkbox-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type="checkbox"]{
+    transform:scale(1.7)
+}
+
+input[type="submit"]{
+    background-color: var(--azul-dnc);
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    color: rgb(224, 223, 223);
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 100px;
+    box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #348afc;
+    box-shadow: 0px 6px 4px rgba(28, 127, 255, 0.25);
+    color: white
 }
