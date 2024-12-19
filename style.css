@@ -3,7 +3,9 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #303030;
+    background-image: linear-gradient(to bottom, rgba(7, 64, 139, 0.925) 20%, #303030 50%);
+    background-repeat: no-repeat;
+
 }
 
 :root{
