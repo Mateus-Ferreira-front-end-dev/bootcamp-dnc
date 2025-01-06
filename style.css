@@ -7,6 +7,7 @@ body{
     padding: 0px;
     background-image: linear-gradient(to bottom, rgba(7, 64, 139, 0.925) 20%, #303030 50%);
     background-repeat: no-repeat;
+    background-color: var(--preto-dnc);
 
 }
 
@@ -23,7 +24,6 @@ body{
     max-width: 100%;
     overflow-x: hidden;
     height: 100px;
-    border: 1px solid black;
     background-color: #303030;
     display: flex;
     justify-content: space-between;
@@ -269,6 +269,7 @@ footer ul li a{
         flex-direction: column;
         width: 100%;
         margin: 0px;
+        padding: 0px;
     }
     #menu a{
         display: flex;
@@ -296,6 +297,29 @@ footer ul li a{
         font-size: 20px;
     }
     .checkbox-items label{
+        font-size: 17px;
+    }
+
+    /* FOOTER */
+
+    footer .linha1{
+        flex-direction: column;
+    }
+
+    footer #endereco{
+        width: 95%;
+        font-size: 17px;
+    }
+
+    footer .linha2 a{
+        font-size: 18px;
+    }
+
+    footer .linha1 h5{
+        font-size: 20px;
+    }
+
+    footer .linha1 a{
         font-size: 17px;
     }
  }
